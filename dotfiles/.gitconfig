@@ -1,0 +1,27 @@
+[user]
+	name = fosmjo
+	email = imefangjie@gmail.com
+[color]
+	ui = auto
+[merge]
+	tool = meld
+[core]
+	editor = vim
+	quotepath = false
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	pl = pull
+	ps = push
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[init]
+	defaultBranch = main
