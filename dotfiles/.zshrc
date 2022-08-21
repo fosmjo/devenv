@@ -90,6 +90,7 @@ plugins=(
     zsh-autosuggestions
     fasd
     rust
+    golang
 )
 source $ZSH/oh-my-zsh.sh
 
