@@ -33,5 +33,5 @@ _BOLD=$(tput bold)
 
 # PS1
 _OLD_PROXY_PS1="${PS1:-}"
-PS1="[${_GREEN}${_BOLD}proxy${_RESET}] ${PS1:-}"
+PS1="[${_GREEN}${_BOLD}proxy${_RESET}]${PS1:-}"
 export PS1
