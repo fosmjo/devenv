@@ -78,11 +78,6 @@ plugins=(
     docker-machine
     kubectl
     helm
-    ruby
-    gem
-    rvm
-    bundler
-    rails
     node
     nvm
     npm
@@ -131,6 +126,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+export GOPROXY="https://goproxy.cn,https://goproxy.io"
 
 # Add scripts to PATH.
 export PATH="$PATH:$HOME/scripts"
