@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+PROXY=http://127.0.0.1:1087
+cmd="http_proxy=$PROXY https_proxy=$PROXY HTTP_PROXY=$PROXY HTTPS_PROXY=$PROXY $@"
+echo "$cmd"
+eval "$cmd"
