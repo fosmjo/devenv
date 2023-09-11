@@ -7,11 +7,11 @@ module.exports.parse = async (
     "DOMAIN-SUFFIX,gravatar.com,代理",
     "DOMAIN-SUFFIX,deepl.com,代理",
     "DOMAIN-SUFFIX,poe.com,代理",
-    "DOMAIN-SUFFIX,formulae.brew.sh,代理",
+    "DOMAIN-SUFFIX,brew.sh,代理",
   ];
 
-  return { 
-    ...content, 
+  return {
+    ...content,
     rules : [...extraRules, ...content.rules, ]
   };
 };
