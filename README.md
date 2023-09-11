@@ -1,4 +1,4 @@
 # Development Environment
 
-Files for development.
+Config files for development.
 
